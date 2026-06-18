@@ -1,11 +1,10 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>HASSTEECO.PK | Premium Oversized Streetwear</title>
+<title>HASSTEECO.PK | Premium Streetwear</title>
 
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
@@ -27,76 +26,87 @@ nav{
 position:fixed;
 top:0;
 width:100%;
-background:rgba(0,0,0,0.9);
+background:#000;
 padding:15px;
 text-align:center;
-z-index:1000;
+z-index:10;
 }
 
 nav a{
 color:white;
 text-decoration:none;
 margin:0 15px;
-font-weight:500;
 }
 
 header{
-background:linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)),
-url('background.jpg');
+height:100vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+padding:20px;
+
+background:
+linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)),
+url("background.jpg");
+
 background-size:cover;
 background-position:center;
 }
-}
 
 header h1{
-font-size:60px;
-margin-bottom:10px;
+font-size:55px;
 }
 
 header p{
 font-size:22px;
-margin-bottom:25px;
+margin:20px 0;
 }
 
 .btn{
 background:white;
 color:black;
-padding:14px 30px;
+padding:15px 30px;
+border-radius:30px;
 text-decoration:none;
 font-weight:bold;
-border-radius:30px;
 }
+
 
 section{
 max-width:1100px;
 margin:auto;
-padding:80px 20px;
+padding:70px 20px;
 }
 
 h2{
 text-align:center;
-margin-bottom:30px;
 font-size:35px;
+margin-bottom:30px;
 }
+
 
 .about{
 text-align:center;
-font-size:18px;
+color:#ddd;
 line-height:1.8;
-color:#d0d0d0;
 }
+
 
 .products{
 display:grid;
-grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
 gap:25px;
 }
 
+
 .product{
-background:#181818;
+background:#151515;
 border-radius:15px;
 overflow:hidden;
 }
+
 
 .product img{
 width:100%;
@@ -104,55 +114,60 @@ height:350px;
 object-fit:cover;
 }
 
+
 .product h3{
 padding:15px;
 }
 
+
 .product p{
 padding:0 15px 15px;
 color:#d4af37;
-font-weight:bold;
 }
+
 
 .contact{
 text-align:center;
-font-size:18px;
 }
 
-.contact p{
-margin:10px 0;
-}
 
 footer{
 background:black;
-text-align:center;
 padding:25px;
-margin-top:40px;
+text-align:center;
 }
+
 
 .whatsapp{
 position:fixed;
-bottom:20px;
 right:20px;
+bottom:20px;
 background:#25D366;
 color:white;
 padding:15px 20px;
-text-decoration:none;
 border-radius:40px;
-font-weight:bold;
+text-decoration:none;
 }
 
+
 </style>
+
 </head>
+
 
 <body>
 
+
 <nav>
+
 <a href="#">Home</a>
 <a href="#">Collection</a>
 <a href="#">About</a>
 <a href="#">Contact</a>
+
 </nav>
+
+
 
 <header>
 
@@ -160,54 +175,65 @@ font-weight:bold;
 
 <p>Premium Oversized Streetwear For Pakistan</p>
 
-<a href="https://wa.me/923056892714" class="btn">
+<a class="btn" href="https://wa.me/923056892714">
 Order On WhatsApp
 </a>
 
 </header>
+
+
 
 <section>
 
 <h2>ABOUT US</h2>
 
 <p class="about">
-At HASSTEECO.PK, we create premium oversized streetwear inspired by modern urban culture.
-Every piece is designed for comfort, confidence, and everyday style.
+HASSTEECO.PK creates premium oversized streetwear inspired by modern urban fashion.
+Comfort, confidence and style in every piece.
 </p>
 
 </section>
+
+
 
 <section>
 
 <h2>FEATURED COLLECTION</h2>
 
+
 <div class="products">
+
 
 <div class="product">
 <img src="shirt1.jpg">
 <h3>Oversized Black Tee</h3>
-<p>Rs. 1499</p>
+<p>Rs.1499</p>
 </div>
+
 
 <div class="product">
 <img src="shirt2.jpg">
 <h3>Street Graphic Tee</h3>
-<p>Rs. 1799</p>
+<p>Rs.1799</p>
 </div>
+
 
 <div class="product">
 <img src="shirt3.jpg">
 <h3>Minimal Collection Tee</h3>
-<p>Rs. 1599</p>
+<p>Rs.1599</p>
 </div>
+
 
 </div>
 
 </section>
 
+
+
 <section class="contact">
 
-<h2>CONTACT US</h2>
+<h2>CONTACT</h2>
 
 <p>WhatsApp: +92 305 6892714</p>
 
@@ -215,15 +241,21 @@ Every piece is designed for comfort, confidence, and everyday style.
 
 </section>
 
+
+
 <footer>
 
-© 2026 HASSTEECO.PK | All Rights Reserved
+© 2026 HASSTEECO.PK
 
 </footer>
 
-<a href="https://wa.me/923056892714" class="whatsapp">
+
+
+<a class="whatsapp" href="https://wa.me/923056892714">
 WhatsApp
 </a>
+
+
 
 </body>
 </html>
