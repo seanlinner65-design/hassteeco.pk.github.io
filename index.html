@@ -1,301 +1,160 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>HASSTEECO.PK | Premium Streetwear</title>
+<title>HASSTEECO.PK</title>
 
 <style>
-
 *{
 margin:0;
 padding:0;
 box-sizing:border-box;
-font-family:Arial, sans-serif;
+font-family:Arial,sans-serif;
 }
 
 body{
-background:#0b0b0b;
+background:#f4f4f4;
+color:#222;
+}
+
+header{
+background:#111;
 color:white;
-}
-
-
-/* NAVBAR */
-
-nav{
-position:fixed;
-top:0;
-width:100%;
-padding:20px;
-background:rgba(0,0,0,.8);
 text-align:center;
-z-index:10;
+padding:100px 20px;
 }
 
-nav a{
-color:white;
-text-decoration:none;
-margin:15px;
-font-size:15px;
+header h1{
+font-size:60px;
+margin-bottom:10px;
 }
 
-
-/* HERO */
-
-.hero{
-height:100vh;
-display:flex;
-align-items:center;
-justify-content:center;
-text-align:center;
-padding:20px;
- background:
-linear-gradient(rgba(0,0,0,0.55),rgba(0,0,0,0.75)),
-url("background.jpg");
-
-background-size:cover;
-background-position:center;
-}
-
-.hero h1{
-font-size:70px;
-letter-spacing:5px;
-}
-
-
-.hero p{
+header p{
 font-size:22px;
-margin:20px 0;
-color:#ccc;
+margin-bottom:20px;
 }
 
-
-button{
+.btn{
+display:inline-block;
 background:white;
 color:black;
-border:none;
-padding:15px 35px;
-border-radius:40px;
+padding:14px 28px;
+text-decoration:none;
+border-radius:6px;
 font-weight:bold;
-cursor:pointer;
 }
-
-
-/* SECTION */
 
 section{
-padding:80px 20px;
-max-width:1100px;
+max-width:1200px;
 margin:auto;
+padding:60px 20px;
 }
 
-
-.title{
+h2{
 text-align:center;
-font-size:40px;
-margin-bottom:40px;
+margin-bottom:30px;
 }
-
-
-/* PRODUCTS */
 
 .products{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-gap:25px;
-}
-
-
-.card{
-background:#151515;
-border-radius:20px;
-padding:25px;
-text-align:center;
-border:1px solid #333;
-}
-
-
-.fake-image{
-height:250px;
-border-radius:15px;
-background:
-linear-gradient(135deg,#222,#555);
 display:flex;
-align-items:center;
+flex-wrap:wrap;
 justify-content:center;
-font-size:30px;
-font-weight:bold;
+gap:20px;
 }
 
-
-.card h3{
-margin:20px 0;
-}
-
-
-.price{
-color:#d4af37;
-font-size:20px;
-font-weight:bold;
-}
-
-
-
-/* ABOUT */
-
-.about{
-text-align:center;
-color:#ccc;
-line-height:1.8;
-font-size:18px;
-}
-
-
-/* CONTACT */
-
-.contact{
+.product{
+background:white;
+width:300px;
+padding:20px;
+border-radius:10px;
+box-shadow:0 2px 10px rgba(0,0,0,.1);
 text-align:center;
 }
 
-
-/* FOOTER */
+.product img{
+width:100%;
+border-radius:10px;
+margin-bottom:10px;
+}
 
 footer{
-background:#000;
-padding:25px;
+background:#111;
+color:white;
 text-align:center;
-color:#aaa;
+padding:25px;
+margin-top:40px;
 }
-
-
 </style>
 
 </head>
 
-
 <body>
 
-
-<nav>
-<a href="#">Home</a>
-<a href="#">Shop</a>
-<a href="#">About</a>
-<a href="#">Contact</a>
-</nav>
-
-
-
-<div class="hero">
-
-<div>
-
+<header>
 <h1>HASSTEECO.PK</h1>
+<p>Wear Different. Think Different.</p>
 
-<p>Premium Oversized Streetwear For Pakistan</p>
+<a href="https://wa.me/923056892714" class="btn">
+Order On WhatsApp
+</a>
+</header>
 
-<button>Shop Collection</button>
+<section>
+<h2>About HASSTEECO</h2>
 
-</div>
+<p style="text-align:center;max-width:700px;margin:auto;">
+HASSTEECO.PK is a premium oversized streetwear brand built for creators, dreamers, and trendsetters. We focus on comfort, confidence, and modern fashion inspired by urban culture.
+</p>
 
-</div>
-
-
+</section>
 
 <section>
 
-<h2 class="title">Latest Collection</h2>
-
+<h2>Featured Collection</h2>
 
 <div class="products">
 
-
-<div class="card">
-
-<div class="fake-image">
-TEE
-</div>
-
+<div class="product">
+<img src="shirt1.jpg">
 <h3>Oversized Black Tee</h3>
-
-<p class="price">
-Rs.1499
-</p>
-
+<p>Rs. 1499</p>
 </div>
 
-
-
-<div class="card">
-
-<div class="fake-image">
-STREET
+<div class="product">
+<img src="shirt2.jpg">
+<h3>Street Graphic Tee</h3>
+<p>Rs. 1799</p>
 </div>
 
-<h3>Urban Graphic Tee</h3>
-
-<p class="price">
-Rs.1799
-</p>
-
+<div class="product">
+<img src="shirt3.jpg">
+<h3>Minimal Collection Tee</h3>
+<p>Rs. 1599</p>
 </div>
-
-
-
-
-<div class="card">
-
-<div class="fake-image">
-CLASSIC
-</div>
-
-<h3>Minimal Premium Tee</h3>
-
-<p class="price">
-Rs.1599
-</p>
-
-</div>
-
-
 
 </div>
 
 </section>
-
-
 
 <section>
 
-<h2 class="title">About HASSTEECO</h2>
+<h2>Contact Us</h2>
 
-<p class="about">
-HASSTEECO.PK brings modern oversized streetwear with premium designs,
-comfortable fits and a bold urban identity.
+<p style="text-align:center;">
+WhatsApp: +92 305 6892714
+</p>
+
+<p style="text-align:center;">
+Instagram: @hassteeco.pk
 </p>
 
 </section>
 
-
-
-<section class="contact">
-
-<h2 class="title">Contact</h2>
-
-<p>WhatsApp: +92 305 6892714</p>
-
-<p>Instagram: @hassteeco.pk</p>
-
-</section>
-
-
-
 <footer>
-
-© 2026 HASSTEECO.PK
-
+© 2026 HASSTEECO.PK | Wear Different. Think Different.
 </footer>
-
 
 </body>
 </html>
